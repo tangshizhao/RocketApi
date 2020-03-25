@@ -22,7 +22,7 @@ pod 'RocketApi'
 
 ## Author
 
-汤世昭, shizhao.tang@sodacar.com
+汤世昭, tangshizhao@foxmail.com
 
 ## License
 
