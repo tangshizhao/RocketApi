@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RocketApi_Example' do
+  pod 'RocketApi', :path => '../'
+
+  target 'RocketApi_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
