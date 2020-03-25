@@ -1,0 +1,6 @@
+framework module Pods_RocketApi_Example {
+  umbrella header "Pods-RocketApi_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

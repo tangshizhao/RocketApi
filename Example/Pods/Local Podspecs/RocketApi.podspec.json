@@ -1,0 +1,22 @@
+{
+  "name": "RocketApi",
+  "version": "0.1.0",
+  "summary": "A short description of RocketApi.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/汤世昭/RocketApi",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "汤世昭": "shizhao.tang@sodacar.com"
+  },
+  "source": {
+    "git": "https://github.com/汤世昭/RocketApi.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RocketApi/Classes/**/*"
+}

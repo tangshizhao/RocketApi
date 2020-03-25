@@ -6,37 +6,37 @@
 # To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
 #
 
-Pod::Spec.new do |s|
-  s.name             = 'RocketApi'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of RocketApi.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/汤世昭/RocketApi'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '汤世昭' => 'shizhao.tang@sodacar.com' }
-  s.source           = { :git => 'https://github.com/汤世昭/RocketApi.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'RocketApi/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'RocketApi' => ['RocketApi/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+Pod::Spec.new do |spec|
+   # 名称
+   spec.name             = "RocketApi"
+   # 版本号
+   spec.version          = "0.1.0"
+   # 简述
+   spec.summary          = "🚀RocketApi is a network framework which can be easily used in iOS project"
+   # 兼容的swift版本
+   spec.swift_version    = '4.0'
+   # 描述
+   spec.description      = <<-DESC
+     🚀RocketApi is a network framework which can be easily used in iOS project to send HTTP request and decode to specified type. It's written in Swift and fully support JSON and Codable protocol.
+                           DESC
+   # 主页
+   spec.homepage     = "https://github.com/tangshizhao/RocketApi.git"
+   # 证书
+   spec.license      = { :type => "MIT", :file => "LICENSE" }
+   # 作者
+   spec.author             = { "Tang Shizhao" => "tangshizhao@foxmail.com" }
+   # 平台
+   spec.platform     = :ios, "9.0"
+   # 最低部署iOS版本
+   spec.ios.deployment_target = "9.0"
+   # 源码地址
+   spec.source       = { :git => "https://github.com/tangshizhao/RocketApi.git", :tag => "#{spec.version}" }
+   # 代码文件
+   spec.source_files  = "Sources", "Sources/**/*.swift"
+   # 基础框架
+   spec.framework  = "Foundation"
+   # 三方依赖
+   spec.dependency "Alamofire"
+   spec.dependency "PromiseKit"
+   spec.dependency "SwiftyJSON"
 end

@@ -1,0 +1,16 @@
+PODS:
+  - RocketApi (0.1.0)
+
+DEPENDENCIES:
+  - RocketApi (from `../`)
+
+EXTERNAL SOURCES:
+  RocketApi:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RocketApi: 26962da33386e7ace5d2d8556110844b80aae2d8
+
+PODFILE CHECKSUM: 1af11e04757b40853eec697da3dbac1e753a544b
+
+COCOAPODS: 1.9.1

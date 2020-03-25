@@ -1,0 +1,6 @@
+framework module RocketApi {
+  umbrella header "RocketApi-umbrella.h"
+
+  export *
+  module * { export * }
+}
